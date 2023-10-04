@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "failure-analyzer"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"editor.hover.enabled": false,
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
