@@ -1,0 +1,10 @@
+name: failure-analyzer
+services:
+  pgsql:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: test
+      POSTGRES_PASSWORD: secret
