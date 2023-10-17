@@ -1,7 +1,6 @@
-name: failure-analyzer
+name: jpa-postgres
 services:
   pgsql:
-    container_name: postgres
     image: postgres:latest
     ports:
       - 5432:5432

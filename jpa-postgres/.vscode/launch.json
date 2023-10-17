@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "JpaPostgresApplication",
+            "request": "launch",
+            "mainClass": "trutzio.jpa.JpaPostgresApplication",
+            "projectName": "jpa-postgres"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FailureAnalyzerApplication<jpa-postgres>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "trutzio.failureanalyzer.FailureAnalyzerApplication",
+            "projectName": "jpa-postgres",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

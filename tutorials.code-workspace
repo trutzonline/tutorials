@@ -1,12 +1,15 @@
 {
 	"folders": [
 		{
-			"path": "failure-analyzer"
+			"path": "jpa-postgres"
 		}
 	],
 	"settings": {
 		"java.compile.nullAnalysis.mode": "automatic",
 		"editor.hover.enabled": false,
-		"java.configuration.updateBuildConfiguration": "automatic"
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.dependency.packagePresentation": "hierarchical",
+		"java.dependency.syncWithFolderExplorer": true,
+		"java.project.explorer.showNonJavaResources": true
 	}
 }
