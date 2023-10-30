@@ -4,8 +4,7 @@
 			"path": "jpa-postgres"
 		},
 		{
-			"name": "renovate",
-			"path": "renovate"
+			"path": "renovate-bot"
 		}
 	],
 	"settings": {
