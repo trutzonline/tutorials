@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "jpa-postgres"
+		},
+		{
+			"name": "renovate",
+			"path": "renovate"
 		}
 	],
 	"settings": {
