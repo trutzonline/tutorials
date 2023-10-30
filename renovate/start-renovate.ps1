@@ -1,1 +1,0 @@
-docker run --rm --env GITHUB_TOKEN -v $PWD/config.js:/usr/src/app/config.js renovate/renovate:full
