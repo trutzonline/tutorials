@@ -8,8 +8,9 @@ import jakarta.servlet.http.HttpSession;
 @RestController
 public class RedisSessionController {
 
-    @GetMapping("/http-session-id")
+    @GetMapping("/")
     public String index(HttpSession httpSession) {
+        httpSession.setAttribute("test", "Christian");
         return httpSession.getId();
     }
 
