@@ -1,0 +1,5 @@
+spring:
+  session:
+    timeout: 60
+    redis:
+      namespace: myapp
