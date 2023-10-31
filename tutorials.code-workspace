@@ -1,10 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "jpa-postgres"
-		},
-		{
-			"path": "renovate"
+			"name": "redis-session",
+			"path": "redis-session"
 		}
 	],
 	"settings": {
