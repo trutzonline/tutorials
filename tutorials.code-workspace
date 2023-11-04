@@ -1,8 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "redis-session",
-			"path": "redis-session"
+			"name": "web-rest",
+			"path": "web-rest"
 		}
 	],
 	"settings": {
@@ -11,6 +11,7 @@
 		"java.configuration.updateBuildConfiguration": "automatic",
 		"java.dependency.packagePresentation": "hierarchical",
 		"java.dependency.syncWithFolderExplorer": true,
-		"java.project.explorer.showNonJavaResources": true
+		"java.project.explorer.showNonJavaResources": true,
+		"java.configuration.runtimes": []
 	}
 }
