@@ -36,12 +36,12 @@ public class ExceptionProducingRestController {
     }
 
     @GetMapping("/error3")
-    public ResponseEntity<Object> error3() {
+    public String error3() {
         throw new IllegalStateException("This is an error!");
     }
 
     @GetMapping("/error4")
-    public ResponseEntity<Object> error4() {
+    public String error4() {
         throw new NullPointerException("This is an error!");
     }
 
