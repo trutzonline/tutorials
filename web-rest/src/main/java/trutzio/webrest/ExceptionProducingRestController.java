@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExceptionProducingRestController {
 
     @GetMapping("/error1")
-    public void error() {
+    public void error1() {
         throw new IllegalStateException("This is an error!");
     }
 
