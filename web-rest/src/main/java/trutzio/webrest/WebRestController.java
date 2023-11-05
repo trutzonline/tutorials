@@ -31,4 +31,12 @@ public class WebRestController {
                 .orElse(new User(UUID.randomUUID(), "NO NAME"));
     }
 
+    /**
+     * HTTP GET Request -> produceError() -> HTTP Response
+     */
+    @GetMapping("/produce-error")
+    public void error() {
+        throw new IllegalStateException("This is an error!");
+    }
+
 }
