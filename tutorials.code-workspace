@@ -1,8 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "web-rest",
-			"path": "web-rest"
+			"path": "docker"
 		}
 	],
 	"settings": {
