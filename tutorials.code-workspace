@@ -1,7 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "docker"
+			"name": "data-mongodb",
+			"path": "data-mongodb"
 		}
 	],
 	"settings": {
